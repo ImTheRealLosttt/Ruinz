@@ -198,7 +198,7 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
---setclipboard("https://discord.gg/bwYwNrKpwJ")
+setclipboard("Ruinz on top")
 
 --Compatibility
 
