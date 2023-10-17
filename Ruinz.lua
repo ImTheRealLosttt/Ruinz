@@ -179,6 +179,7 @@ getgenv().saveinstance = function(saving)
     end
     writefile(("game_%s.rbxlx"):format(game.PlaceId),table.concat(temp," ").."</roblox>")
     print(("Done! Took %ss"):format(math.round((tick()-timer)*100)/100)) 
+    print("Credit To HTDBarsi & Nori")
 end
 
 getgenv().identifyexecutor = function()
@@ -191,13 +192,13 @@ end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
-	Name = "Ruinz Injected successfully ",
-	Content = "Thanks for using Ruinz\n\n",
+	Name = "Injection Success",
+	Content = "Thanks for using Ruinze",
 	Image = "rbxassetid://4483362748",
 	Time = 5
 })
 
---setclipboard("")
+--setclipboard("https://discord.gg/bwYwNrKpwJ")
 
 --Compatibility
 
